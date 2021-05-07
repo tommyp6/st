@@ -5,8 +5,8 @@
 include config.mk
 
 # Uncomment the line below and the hb.o line further down for the ligatures patch
-#LIGATURES_C = hb.c
-#LIGATURES_H = hb.h
+LIGATURES_C = hb.c
+LIGATURES_H = hb.h
 
 # Uncomment this for the SIXEL patch / SIXEL_PATCH
 #SIXEL_C = sixel.c sixel_hls.c
